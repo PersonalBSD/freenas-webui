@@ -13,14 +13,16 @@ COMMENT=	Angular Web User Interface for FreeNAS
 EXTRACT_ONLY=
 
 FETCH_DEPENDS=	yarn:www/yarn \
-		git>0:devel/git \
+		git-lite>0:devel/git-lite \
 		python2>0:lang/python2 \
-    gmake:devel/gmake
+		gmake:devel/gmake
+
 BUILD_DEPENDS=	rsync>0:net/rsync \
 		yarn:www/yarn \
 		python2>0:lang/python2 \
-    gmake:devel/gmake
-RUN_DEPENDS=  gmake:devel/gmake
+		gmake:devel/gmake
+
+RUN_DEPENDS=	gmake:devel/gmake
 
 NO_BUILD=	yes
 WRKSRC=		/usr/webui
