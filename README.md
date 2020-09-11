@@ -1,21 +1,22 @@
 
-FreeNAS 11 WebUI
+FreeNAS 12 WebUI
 ================
 ![CI](https://github.com/freenas/webui/workflows/CI/badge.svg?branch=master)
 
 
-This is the project for the new angular.io WebUI for FreeNAS 11. It is meant to coexist with current FreeNAS 11 Django/Dojo WebUI.
+This is the project for the new angular.io WebUI for FreeNAS 12. 
+It is meant to coexist with current FreeNAS 12 Django/Dojo WebUI.
 
 # Development requirements
 
   - yarn >= 1.12
   - Node.js >= 8.9
-  - Running FreeNAS 11 Nightly Machine (VM is fine)
+  - Running FreeNAS 12 Nightly Machine (VM is fine)
 
 
 # Getting started
 
-Install the development requirements (FreeBSD 11 or later):
+Install the development requirements (FreeBSD 12 or later):
 
 ```sh
 # pkg install yarn
@@ -79,5 +80,6 @@ This will update all of the PO files located in the directory src/assets/i18n.
 These can be edited with any PO editor.
 
 
-Stock images used on the dashboard UI are courtesy of Pixabay.com and are subject to the Simplified Pixabay License. 
+Stock images used on the dashboard UI are courtesy of Pixabay.com 
+and are subject to the Simplified Pixabay License. 
 Full license details can be found at https://pixabay.com/service/license/.
